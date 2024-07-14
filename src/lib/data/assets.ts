@@ -70,7 +70,14 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	Spigot: a("spigot.png"),
+	Paper: a("paper.png"),
+	Folia: a("folia.png"),
+	Yaml: a("yaml.png"),
+	Strealex: a("strealex.png"),
+	Minecraft: a("minecraft.jpeg"),
+	Vanarchy: a("vanarchy.png")
 };
 
 export default Assets;

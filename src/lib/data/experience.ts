@@ -16,7 +16,8 @@ export const items: Array<Experience> = [
 		color: 'red',
 		links: [],
 		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome tools for developers.'
+		shortDescription: 'Creating awesome tools for developers.',
+		role: ""
 	},
 	{
 		slug: 'software-freelance',
@@ -31,7 +32,8 @@ export const items: Array<Experience> = [
 		color: 'blue',
 		links: [],
 		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
+		shortDescription: 'Creating awesome applications for customers.',
+		role: ""
 	},
 	{
 		slug: 'software-freelance-junior',
@@ -46,7 +48,8 @@ export const items: Array<Experience> = [
 		color: 'green',
 		links: [],
 		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
+		shortDescription: 'Creating awesome applications for customers.',
+		role: ""
 	}
 ];
 

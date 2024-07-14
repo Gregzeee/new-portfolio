@@ -61,6 +61,7 @@ export interface Project<S extends string = string> extends Item<S> {
 	};
 	type: string;
 	skills: Array<Skill<S>>;
+	role: string; // Added role property
 }
 
 export interface Experience<S extends string = string> extends Project<S> {
