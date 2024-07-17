@@ -41,6 +41,23 @@ export const items: Array<Project> = [
 		skills: getSkills('minecraft', 'spigotmc', 'java'),
 		type: 'Minecraft Server',
 		role: "Owner"
+	},
+	{
+		slug: '10lives',
+		color: 'red',
+		description:
+			'Placeholder',
+		shortDescription:
+			'Placeholder',
+		links: [{ to: 'https://discord.gg/10livessmp', label: 'Discord' }, { to: 'https://https://10livessmp.tebex.io/', label: 'Store'}],
+		logo: Assets.Lives10,
+		name: '10Lives',
+		period: {
+			from: new Date(2022, 10, 27)
+		},
+		skills: getSkills('minecraft', 'spigotmc', 'java'),
+		type: 'Minecraft Server',
+		role: "Developer"
 	}
 ];
 

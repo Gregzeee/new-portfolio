@@ -77,7 +77,9 @@ const Assets = {
 	Yaml: a("yaml.png"),
 	Strealex: a("strealex.png"),
 	Minecraft: a("minecraft.jpeg"),
-	Vanarchy: a("vanarchy.png")
+	Vanarchy: a("vanarchy.png"),
+	Lives10: a("10lives.png"),
+	Velocity: a("velocity.png"),
 };
 
 export default Assets;

@@ -128,6 +128,14 @@ export const items = [
 		description: 'Minecraft is a 2011 sandbox game developed and published by Mojang Studios for Windows. Originally created by Markus "Notch" Persson using the Java programming language, it was developed over the span of two years, with many public test builds being released from May 2009 until its full release on 18 November 2011.',
 		logo: Assets.Minecraft,
 		name: 'Minecraft',
+	}),
+	defineSkill({
+		slug: 'velocity',
+		color: 'blue',
+		description: 'Velocity is a proxy software designed for Minecraft servers. It acts as an intermediary between Minecraft clients and backend servers, enabling seamless player movement across multiple servers within a network.',
+		logo: Assets.Velocity,
+		name: 'Velocity',
+		category: 'library'
 	})
 ] as const;
 
